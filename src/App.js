@@ -10,7 +10,8 @@ class App extends Component {
         super()
         this.state = {
             stuff: stuff,
-            searchperson: ''
+            searchperson: '',
+            searchitem: ''
         }
     }
 
@@ -18,14 +19,19 @@ onNewSearchPers = (event) => {
     this.setState({searchperson: event.target.value})
     }
 
+onNewSearchItem = (event) => {
+    this.setState({searchitem: event.target.value})
+    }
+
 render() {
         const filteredstuff = this.state.stuff.filter(stuff => {
-        return stuff.person.toLowerCase().includes(this.state.searchperson.toLowerCase());
+            return stuff.person.toLowerCase().includes(this.state.searchperson.toLowerCase()) && stuff.item.toLowerCase().includes(this.state.searchitem.toLowerCase());
+            // return stuff.item.toLowerCase().includes(this.state.searchitem.toLowerCase());
     }) 
     return (
         <div className='tc'>
             <h1 className='brand'>Xmas Party Organizer</h1>
-
+            <SearchItem newSearchItem={this.onNewSearchItem}/>
             <SearchPerson newSearchPers={this.onNewSearchPers}/>
             <PresList stuff={filteredstuff}/>
         </div>

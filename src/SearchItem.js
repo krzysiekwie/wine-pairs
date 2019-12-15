@@ -1,12 +1,12 @@
 import React from 'react'
 
-const SearchItem = ({newSearch}) => {
+const SearchItem = ({newSearchItem}) => {
     return (
         <input
-        className = 'pa3 ba b--navy bg-light-blue' 
+        className = 'ma2 pa3 ba b--navy bg-light-blue' 
         type='search' 
         placeholder='find item'
-        onChange = {newSearch}
+        onChange = {newSearchItem}
         />
     );
 }
