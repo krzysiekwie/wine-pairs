@@ -1,5 +1,5 @@
 import React from 'react'
-
+//searching by item
 const SearchItem = ({newSearchItem}) => {
     return (
         <input

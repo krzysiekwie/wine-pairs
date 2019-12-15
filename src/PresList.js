@@ -11,7 +11,7 @@ const Preslist = ({stuff}) => {
                         key={stuff[i].id}
                         item={stuff[i].item} 
                         person={stuff[i].person} 
-                        email={stuff[i].email}
+                        // email={stuff[i].email}
                     />
                 );
             })

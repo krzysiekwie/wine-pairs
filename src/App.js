@@ -24,9 +24,9 @@ onNewSearchItem = (event) => {
     }
 
 render() {
+    //filter by two categories
         const filteredstuff = this.state.stuff.filter(stuff => {
             return stuff.person.toLowerCase().includes(this.state.searchperson.toLowerCase()) && stuff.item.toLowerCase().includes(this.state.searchitem.toLowerCase());
-            // return stuff.item.toLowerCase().includes(this.state.searchitem.toLowerCase());
     }) 
     return (
         <div className='tc'>
