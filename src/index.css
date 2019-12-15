@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(30deg, navy 0%, teal 100%)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+img.photo {
+  transition: all 1s;
+}
+
+img.photo:hover {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(8px 8px 4px grey);
 }
