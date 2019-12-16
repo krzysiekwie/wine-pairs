@@ -6,10 +6,10 @@
 }
 
 h1.brand {
-    margin: 10px 100px;
+    margin: 1rem auto;
     font-family: 'PartybyTom';
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: red;
     padding: 8px;
     border-radius: 20px 5px;
