@@ -3,6 +3,7 @@ import PresList from '../components/PresList';
 import SearchPerson from '../components/SearchPerson';
 import SearchItem from '../components/SearchItem';
 import Scroll from '../components/Scroll';
+import ErrorBound from '../components/ErrorBound';
 import {stuff} from '../stuff';
 import './App.css';
 
@@ -36,7 +37,9 @@ render() {
             <SearchItem newSearchItem={this.onNewSearchItem}/>
             <SearchPerson newSearchPers={this.onNewSearchPers}/>
             <Scroll>
-              <PresList stuff={filteredstuff}/>
+              <ErrorBound>
+                <PresList stuff={filteredstuff}/>
+              </ErrorBound>
             </Scroll>
         </div>
     );
