@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import PresList from './PresList';
-import SearchPerson from './SearchPerson';
-import SearchItem from './SearchItem';
-import Scroll from './Scroll';
-import {stuff} from './stuff';
+import PresList from '../components/PresList';
+import SearchPerson from '../components/SearchPerson';
+import SearchItem from '../components/SearchItem';
+import Scroll from '../components/Scroll';
+import {stuff} from '../stuff';
 import './App.css';
 
 class App extends Component {
@@ -26,8 +26,9 @@ onNewSearchItem = (event) => {
 
 render() {
     //filter by two categories
-        const filteredstuff = this.state.stuff.filter(stuff => {
-            return stuff.person.toLowerCase().includes(this.state.searchperson.toLowerCase()) && stuff.item.toLowerCase().includes(this.state.searchitem.toLowerCase());
+        const {stuff, searchperson, searchitem} = this.state;
+        const filteredstuff = stuff.filter(stuff => {
+            return stuff.person.toLowerCase().includes(searchperson.toLowerCase()) && stuff.item.toLowerCase().includes(searchitem.toLowerCase());
     })
     return (
         <div className='tc'>
