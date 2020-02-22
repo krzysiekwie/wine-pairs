@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wine-pairs/static/css/main.aea1d542.chunk.css",
+    "main.js": "/wine-pairs/static/js/main.d24a6def.chunk.js",
+    "main.js.map": "/wine-pairs/static/js/main.d24a6def.chunk.js.map",
+    "runtime-main.js": "/wine-pairs/static/js/runtime-main.111acdde.js",
+    "runtime-main.js.map": "/wine-pairs/static/js/runtime-main.111acdde.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/wine-pairs/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.cb15aec8.chunk.js": "/wine-pairs/static/js/2.cb15aec8.chunk.js",
+    "static/js/2.cb15aec8.chunk.js.map": "/wine-pairs/static/js/2.cb15aec8.chunk.js.map",
+    "index.html": "/wine-pairs/index.html",
+    "precache-manifest.eaf9718e31c0f1729f8bb0ebb8893b89.js": "/wine-pairs/precache-manifest.eaf9718e31c0f1729f8bb0ebb8893b89.js",
+    "service-worker.js": "/wine-pairs/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/wine-pairs/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.aea1d542.chunk.css.map": "/wine-pairs/static/css/main.aea1d542.chunk.css.map",
+    "static/js/2.cb15aec8.chunk.js.LICENSE": "/wine-pairs/static/js/2.cb15aec8.chunk.js.LICENSE",
+    "static/media/App.css": "/wine-pairs/static/media/PartybyTom.35a0f067.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.111acdde.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.cb15aec8.chunk.js",
+    "static/css/main.aea1d542.chunk.css",
+    "static/js/main.d24a6def.chunk.js"
+  ]
+}
