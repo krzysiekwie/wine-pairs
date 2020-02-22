@@ -1,3 +1,7 @@
+## What's this?
+
+Building on top of what [Andrei Neagoie](https://github.com/aneagoie) teaches about React , a simple web-app with wine pairings (based on info from [winefolly.com](winefolly.com))
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
