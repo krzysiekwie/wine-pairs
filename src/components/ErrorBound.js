@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
 class ErrorBound extends Component {
   constructor(props) {
     super(props);
-    this.state ={
+    this.state = {
       hasError: false
-    }
+    };
   }
   componentDidCatch(error, info) {
-    this.setState({hasError: true})
+    this.setState({ hasError: true });
   }
-  render () {
+  render() {
     if (this.state.hasError) {
-      return <p>no people or items to show</p>
+      return <p>no people or items to show</p>;
     }
-    return this.props.children
+    return this.props.children;
   }
 }
-export default ErrorBound
+export default ErrorBound;

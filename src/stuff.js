@@ -1,74 +1,49 @@
-export const stuff = [
-    {
+export const stuff = [{
         id: 1,
-        item: 'kieliszki',
-        person: 'Agata',
-        email: 'agata@mockmail.com',
+        item: "Vegetables - also Roasted, Starches, Fish",
+        group: "Dry White",
+        email: "agata@mockmail.com"
     },
     {
         id: 2,
-        item: 'kawa',
-        person: 'Monika',
-        email: 'monika@mockmail.com',
+        item: "Soft and Hard Cheese, Cold Meat, Desserts",
+        group: "Sweet White",
+        email: "monika@mockmail.com"
     },
     {
         id: 3,
-        item: 'wino',
-        person: 'Krzysztof',
-        email: 'krzysztof@mockmail.com',
+        item: "Soft Cheese, Starches, Fish and Shellfish, White Meat, ",
+        group: "Rich White",
+        email: "krzysztof@mockmail.com"
     },
     {
         id: 4,
-        item: 'pizza',
-        person: 'Aneta',
-        email: 'aneta@mockmail.com',
+        item: "Vegetables, Soft and Hard Cheese, Starches, Fish",
+        group: "Sparkling",
+        email: "aneta@mockmail.com"
     },
     {
         id: 5,
-        item: 'sałatka',
-        person: 'Agata',
-        email: 'agata@mockmail.com',
+        item: " Roasted Vegetables, Starches, Shellfish, White and Cold Meat",
+        group: "Light Red",
+        email: "agata@mockmail.com"
     },
     {
         id: 6,
-        item: 'keczup',
-        person: 'Krzysztof',
-        email: '@mockmail.com',
+        item: "Roasted Vegetables, Hard Cheese, Starches, Any Meat",
+        group: "Medium Red",
+        email: "@mockmail.com"
     },
     {
         id: 7,
-        item: 'kawa',
-        person: 'Krzysztof',
-        email: 'krzysztof@mockmail.com',
+        item: "Hard Cheese, Starches, Red and Cold Meat",
+        group: "Bold Red",
+        email: "krzysztof@mockmail.com"
     },
     {
         id: 8,
-        item: 'muzyka',
-        person: 'Karolina',
-        email: 'karolina@mockmail.com',
-    },
-    {
-        id: 9,
-        item: 'cola',
-        person: 'Aneta',
-        email: 'aneta@mockmail.com',
-    },
-    {
-        id: 10,
-        item: 'serwetki',
-        person: 'Monika',
-        email: 'monika@mockmail.com',
-    },
-    {
-        id: 11,
-        item: 'wino',
-        person: 'Karolina',
-        email: 'karolina@mockmail.com',
-    },
-    {
-        id: 12,
-        item: 'muzyka',
-        person: 'Agata',
-        email: 'agata@mockmail.com',
-    },
-]
+        item: "Soft Cheese, Starches, Cold Meat, Sweets",
+        group: "Dessert",
+        email: "karolina@mockmail.com"
+    }
+];

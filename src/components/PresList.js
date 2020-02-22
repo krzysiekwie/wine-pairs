@@ -1,22 +1,21 @@
-import React from 'react';
-import PresCard from './PresCard';
+import React from "react";
+import PresCard from "./PresCard";
 
-const Preslist = ({stuff}) => {
-    return (
-        <div>
-            {
-            stuff.map((pres, i) => {
-                return (
-                    <PresCard
-                        key={stuff[i].id}
-                        item={stuff[i].item} 
-                        person={stuff[i].person} 
-                        // email={stuff[i].email}
-                    />
-                );
-            })
-            } 
-        </div>
-    );
-}
+const Preslist = ({ stuff }) => {
+  return (
+    <div className="flex-row">
+      {" "}
+      {stuff.map((pres, i) => {
+        return (
+          <PresCard
+            key={stuff[i].id}
+            item={stuff[i].item}
+            group={stuff[i].group}
+            // email={stuff[i].email}
+          />
+        );
+      })}{" "}
+    </div>
+  );
+};
 export default Preslist;
