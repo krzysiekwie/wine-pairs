@@ -1,19 +1,16 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, navy 0%, teal 100%)
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to right, MistyRose 0%, AntiqueWhite 100%);
 }
 
-
 img.photo {
-  transition: all 1s;
+    transition: all 1s;
 }
 
 img.photo:hover {
     transform: scale(1.1) rotate(5deg);
-    filter: drop-shadow(8px 8px 4px grey);
+    /* filter: drop-shadow(8px 8px 4px grey); */
 }

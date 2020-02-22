@@ -1,18 +1,19 @@
 @font-face {
-    font-family: 'PartybyTom';
+    font-family: "PartybyTom";
     font-style: normal;
     font-weight: normal;
-    src: local('PartybyTom'), url('PartybyTom.woff') format('woff');
+    src: local("PartybyTom"), url("PartybyTom.woff") format("woff");
 }
 
 h1.brand {
-    margin: 1rem auto;
-    font-family: 'PartybyTom';
-    font-weight: lighter;
-    font-size: 1.5rem;
-    color: red;
-    padding: 8px;
-    border-radius: 20px 5px;
     width: 80%;
-    background: plum;
-  }
+    margin: 1rem auto;
+    font-family: "PartybyTom";
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: crimson;
+    padding: 8px;
+    border-color: crimson;
+    border-radius: 20px 5px;
+    background: lavenderblush;
+}
